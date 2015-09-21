@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="face_recognition" name="Fclient" type="Fclient"/> 
+    <node pkg="face_recognition" name="Fserver" type="Fserver"/>
+    <node pkg="face_recognition" name="fr_order" type="fr_order"/>
+
+</launch>
